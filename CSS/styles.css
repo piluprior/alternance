@@ -37,6 +37,7 @@
 
     /* text-color - alternance */
     --bs-secondary-rgb: 250, 180, 0; /* last : rgb 108, 117, 125 */
+
     --bs-success-rgb: 25, 135, 84;
     --bs-info-rgb: 13, 202, 240;
     --bs-warning-rgb: 255, 193, 7;
@@ -10859,6 +10860,10 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  width: 100%;
+  align-items: flex-start;
+  text-align: left;
+  padding-left:4rem;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
@@ -11007,8 +11012,8 @@ section.resume-section .resume-section-content {
 
 /* button hover background-color "Mon CV au format pdf" */
 .btn-dark:hover {
-	background-color: #008ec2 !important; /* last : #bd5d38 */
-  border-color: #008ec2 !important; /* last : #bd5d38 */
+	background-color: #fab400 !important; /* last : #008ec2, #bd5d38 */
+  border-color: #fab400 !important; /* last : #008ec2, #bd5d38 */
 }
 
 .navbar-toggler:focus,
