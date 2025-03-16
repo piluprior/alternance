@@ -56,7 +56,7 @@
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
-    --bs-body-bg: #E5E5D5; /* background color custom - last #FAFAED ,#F9F9F6, #F5F5DC */
+    --bs-body-bg: #FAFAED; /* background color custom - last #E5E5D5, #FAFAED ,#F9F9F6, #F5F5DC */
     --bs-border-width: 1px;
     --bs-border-style: solid;
     --bs-border-color: #dee2e6;
@@ -10988,32 +10988,38 @@ section.resume-section .resume-section-content {
 	font-size: 20px;
 	cursor: pointer;
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-	opacity: 0;
-	transition:background-color 0.5s ease-in-out, opacity 0.5s ease, transform 0.5s ease;
 	z-index: 1000;
+	opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+	/* transition:background-color 0.5s ease-in-out, opacity 0.5s ease, transform 0.5s ease; */
+    /* transform-origin: center; */
+    /* will-change: transform; */
 }
-  
+
 .scroll-up.show {
 	opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 /* hover background-color scroll-up button */
 .scroll-up:hover {
-	transform: scale(1.2);
-  background-color: #fab400; /* last : #008ec2, #bd5d38 */
+	/* transform: scale(1.1); */
+    background-color: #fab400; /* last : #008ec2, #bd5d38 */
 }
 
 /* button background-color "Mon CV au format pdf" */
 .btn-dark {
 	background-color: #fab400 !important; /* last : #495057 */
-  border-color: #fab400 !important; /* last : #495057 */
-  border-radius: 20px !important;
+    border-color: #fab400 !important; /* last : #495057 */
+    border-radius: 20px !important;
 }
 
 /* button hover background-color "Mon CV au format pdf" */
 .btn-dark:hover {
 	background-color: #fab400 !important; /* last : #008ec2, #bd5d38 */
-  border-color: #fab400 !important; /* last : #008ec2, #bd5d38 */
+    border-color: #fab400 !important; /* last : #008ec2, #bd5d38 */
 }
 
 .navbar-toggler:focus,
@@ -11061,14 +11067,14 @@ li {
 }
 
 .tooltip:hover .tooltip-text {
-  visibility: visible; /* desktop */
+    visibility: visible; /* desktop */
 }
 
 /* désactivé pour mobile */
 @media (hover: none) {
-  .tooltip:hover .tooltip-text {
-      visibility: hidden;
-  }
+    .tooltip:hover .tooltip-text {
+        visibility: hidden;
+    }
 }
 
 /* tooltip désactivé pour mobile */
@@ -11077,8 +11083,8 @@ li {
 }
 
 .no-tooltips [title] {
-  display: none;
-  pointer-events: none;
+    display: none;
+    pointer-events: none;
 }
 
 /* background-color "formation en cours" */

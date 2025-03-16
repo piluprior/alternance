@@ -25,7 +25,6 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
 
 // scroll-up
@@ -65,8 +64,3 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.add("no-tooltips");
     }
 });
-
-// désactive les tooltips sur mobile
-// if (matchMedia("(hover: none)").matches) {
-//     document.querySelectorAll("[title]").forEach(el => el.removeAttribute("title"));
-// }
