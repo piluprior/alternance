@@ -11041,6 +11041,10 @@ section.resume-section .resume-section-content {
     line-height: 1.9;
 }
 
+.objective {
+    font-weight: bold;
+}
+
 li {
     list-style: none;
 }
