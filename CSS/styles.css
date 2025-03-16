@@ -4119,7 +4119,7 @@ textarea.form-control-lg {
   --bs-navbar-active-color: #fff;
 
   /* navbar text-color */
-  --bs-navbar-brand-color: #e5e5d5; /* last : #fff */
+  --bs-navbar-brand-color: #FAFAED; /* last : #E5E5D5, #FFF */
 
   /* hover navbar text-color */
   --bs-navbar-brand-hover-color: #fff;
@@ -5513,7 +5513,7 @@ textarea.form-control-lg {
   --bs-tooltip-font-size: 0.875rem;
 
   /* tooltip text-color */
-  --bs-tooltip-color: #e5e5d5; /* last : #fff */
+  --bs-tooltip-color: #FAFAED; /* last : #E5E5D5, #FFF */
 
   /* tooltip arrow background-color */
   --bs-tooltip-bg: #008ec2; /* last : #000 */
@@ -10923,7 +10923,7 @@ p.lead {
   background-color: #fab400; /* last : #495057 */
 
   /* inner */
-  color: #e5e5d5; /* last : #fff */
+  color: #FAFAED; /* last : #E5E5D5, #FFF */
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -11092,6 +11092,6 @@ h6, .en-cours-tssr {
     background-color: #008ec2 !important; /* last : #bd5d38 */
 
     /* text-color */
-    color: #e5e5d5; /* last : #fff */
+    color: #FAFAED; /* last #E5E5D5: #FFF */
     font-size: 1.5rem;
 }
