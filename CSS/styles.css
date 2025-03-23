@@ -11101,3 +11101,14 @@ h6, .en-cours-tssr {
     color: #FAFAED; /* last #E5E5D5: #FFF */
     font-size: 1.5rem;
 }
+
+/* clignotement alternance */
+@keyframes clignote {
+  0% { opacity: 1; }
+  50% { opacity: 0.25; }
+  100% { opacity: 1; }
+}
+
+.clignotant {
+  animation: clignote 1s infinite;
+}
