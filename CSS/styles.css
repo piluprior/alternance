@@ -11110,5 +11110,5 @@ h6, .en-cours-tssr {
 }
 
 .clignotant {
-  animation: clignote 1s infinite;
+  animation: clignote 1.25s infinite;
 }
