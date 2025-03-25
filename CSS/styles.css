@@ -11118,3 +11118,7 @@ h6, .en-cours-tssr {
 .capitalizer {
   text-transform: uppercase;
 }
+
+.italizer {
+  font-style: italic;
+}
