@@ -11122,3 +11122,10 @@ h6, .en-cours-tssr {
 .italizer {
   font-style: italic;
 }
+
+/* hide tooltips on mobile */
+@media (max-width: 768px) { /* adapter selon le breakpoint */
+  .tooltip {
+    display: none !important;
+  }
+}
